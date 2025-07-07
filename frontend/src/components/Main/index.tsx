@@ -15,7 +15,7 @@ const Main = () => {
         <FaRegFilePdf className='text-white' size={50} />
         <input type='file' 
         accept="application/pdf"
-        className='text-white font-bold text-xl'/>
+        className='text-white text-[14px] flex text-sm sm:text-xl md:text-2xl'/>
         <p className='text-gray-500 text-sm'>ou arraste e solte um arquivo</p>
       </div>
       <form onSubmit={handleSubmitForm}
